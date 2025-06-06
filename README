@@ -1,0 +1,19 @@
+# D&D PDF Question-Answering AI
+
+## Description
+This project builds a Retrieval-Augmented Generation (RAG) model using the `flan-t5-base` language model to answer questions based on a Dungeons & Dragons PDF.
+
+## Files
+- `RAG_DnD_Project.ipynb` – main notebook
+- `dnd_5e_basic_rules.pdf` – source document
+- `requirements.txt` – list of required Python packages
+
+## How to Run
+1. Install packages: noted in file, and "Required packages DL.txt
+2. Run the notebook cells in order.
+
+No API keys or external services are required.
+
+## Notes
+- The model is based on Hugging Face `flan-t5-base`.
+- Chunking and embeddings are handled via `langchain` and `faiss`.
